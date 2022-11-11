@@ -1,3 +1,23 @@
+- [Group](#group)
+- [Repeater](#repeater)
+- [Text](#text)
+- [Textarea](#textarea)
+- [Number](#number)
+- [Email](#email)
+- [Link](#link)
+- [WYSIWYG](#wysiwyg)
+- [Select](#select)
+- [True / False](#true--false)
+- [Image](#image)
+- [File](#file)
+- [Date Picker](#date-picker)
+- [Taxonomy](#taxonomy)
+- [Post Object](#post-object)
+
+<br>
+<br>
+
+### Group
 ```php
 ->addGroup('group_field', [
   'label' => __('Group Field', 'djx'),
@@ -6,7 +26,10 @@
   'wrapper' => ['width' => '100'],
   'layout' => 'block',
 ])
+```
 
+### Repeater
+```php
 ->addRepeater('repeater_field', [
   'label' => __('Repeater Field', 'djx'),
   'instructions' => '',
@@ -17,7 +40,10 @@
   'layout' => 'table',
   'button_label' => __('Add', 'djx'),
 ])
+```
 
+### Text
+```php
 ->addText('text_field', [
   'label' => __('Text Field', 'djx'),
   'instructions' => '',
@@ -27,7 +53,10 @@
   'placeholder' => '',
   'maxlength' => '',
 ])
+```
 
+### Textarea
+```php
 ->addTextarea('textarea_field', [
   'label' => __('Textarea Field', 'djx'),
   'instructions' => '',
@@ -39,7 +68,10 @@
   'rows' => '',
   'new_lines' => 'br',
 ])
+```
 
+### Number
+```php
 ->addNumber('number_Field', [
   'label' => __('Number Field', 'djx'),
   'instructions' => '',
@@ -52,7 +84,10 @@
   'max' => '',
   'step' => '',
 ])
+```
 
+### Email
+```php
 ->addEmail('email_field', [
   'label' => __('Email Field', 'djx'),
   'instructions' => '',
@@ -64,7 +99,10 @@
   'prepend' => '',
   'append' => '',
 ])
+```
 
+### Link
+```php
 ->addLink('link_field', [
   'label' => __('Link Field', 'djx'),
   'instructions' => '',
@@ -73,7 +111,10 @@
   'wrapper' => ['width' => '100'],
   'return_format' => 'array',
 ])
+```
 
+### WYSIWYG
+```php
 ->addWysiwyg('html_content', [
   'label' => __('WYSIWYG Field', 'djx'),
   'instructions' => '',
@@ -86,7 +127,10 @@
   'media_upload' => 0,
   'delay' => 1,
 ])
+```
 
+### Select
+```php
 ->addSelect('select_field', [
   'label' => __('Select Field', 'djx'),
   'instructions' => '',
@@ -103,7 +147,10 @@
   'return_format' => 'value',
   'placeholder' => '',
 ])
+```
 
+### True / False
+```php
 ->addTrueFalse('truefalse_field', [
   'label' => __('True / False Field', 'djx'),
   'instructions' => '',
@@ -115,7 +162,10 @@
   'ui_on_text' => '',
   'ui_off_text' => '',
 ])
+```
 
+### Image
+```php
 ->addImage('image_field', [
   'label' => __('Image Field', 'djx'),
   'instructions' => __('Aspect-Ratio', 'djx') . ': WWWxHHH',
@@ -132,7 +182,10 @@
   'max_height' => '',
   'max_size' => '',
 ])
+```
 
+### File
+```php
 ->addFile('file_Field', [
   'label' => __('File Field', 'djx'),
   'instructions' => '',
@@ -145,7 +198,10 @@
   'max_size' => '',
   'mime_types' => '',
 ])
+```
 
+### Date Picker
+```php
 ->addDatePicker('date_picker_date', [
   'label' => __('Date Picker Field', 'djx'),
   'instructions' => '',
@@ -156,7 +212,10 @@
   'return_format' => 'Ymd',
   'first_day' => 1,
 ])
+```
 
+### Taxonomy
+```php
 ->addTaxonomy('taxonomy_field', [
   'label' => __('Taxonomy Field', 'djx'),
   'instructions' => '',
@@ -172,7 +231,10 @@
   'return_format' => 'id',
   'multiple' => 0,
 ])
+```
 
+### Post Object
+```php
 ->addPostObject('post_object_field', [
   'label' => __('Post Object Field', 'djx'),
   'instructions' => '',
@@ -186,3 +248,4 @@
   'return_format' => 'object',
   'ui' => 1,
 ])
+```
