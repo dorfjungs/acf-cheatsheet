@@ -27,6 +27,9 @@
   'layout' => 'block',
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/group/)
+<br>
+<br>
 
 ### Repeater
 ```php
@@ -41,6 +44,9 @@
   'button_label' => __('Add', 'djx'),
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/repeater/)
+<br>
+<br>
 
 ### Text
 ```php
@@ -54,6 +60,9 @@
   'maxlength' => '',
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/text/)
+<br>
+<br>
 
 ### Textarea
 ```php
@@ -69,6 +78,9 @@
   'new_lines' => 'br',
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/textarea/)
+<br>
+<br>
 
 ### Number
 ```php
@@ -85,6 +97,8 @@
   'step' => '',
 ])
 ```
+<br>
+<br>
 
 ### Email
 ```php
@@ -100,6 +114,8 @@
   'append' => '',
 ])
 ```
+<br>
+<br>
 
 ### Link
 ```php
@@ -112,6 +128,9 @@
   'return_format' => 'array',
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/link/)
+<br>
+<br>
 
 ### WYSIWYG
 ```php
@@ -128,6 +147,9 @@
   'delay' => 1,
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/wysiwyg)
+<br>
+<br>
 
 ### Select
 ```php
@@ -148,6 +170,9 @@
   'placeholder' => '',
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/select/)
+<br>
+<br>
 
 ### True / False
 ```php
@@ -163,6 +188,9 @@
   'ui_off_text' => '',
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/true-false/)
+<br>
+<br>
 
 ### Image
 ```php
@@ -183,6 +211,9 @@
   'max_size' => '',
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/image/)
+<br>
+<br>
 
 ### File
 ```php
@@ -199,6 +230,9 @@
   'mime_types' => '',
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/file/)
+<br>
+<br>
 
 ### Date Picker
 ```php
@@ -213,6 +247,9 @@
   'first_day' => 1,
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/date-picker/)
+<br>
+<br>
 
 ### Taxonomy
 ```php
@@ -232,6 +269,9 @@
   'multiple' => 0,
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/taxonomy/)
+<br>
+<br>
 
 ### Post Object
 ```php
@@ -249,3 +289,6 @@
   'ui' => 1,
 ])
 ```
+[Official Documentation](https://www.advancedcustomfields.com/resources/post-object/)
+<br>
+<br>
