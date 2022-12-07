@@ -7,6 +7,7 @@
 - [Link](#link)
 - [WYSIWYG](#wysiwyg)
 - [Select](#select)
+- [Radio](#radio)
 - [True / False](#true--false)
 - [Image](#image)
 - [File](#file)
@@ -171,6 +172,27 @@
 ])
 ```
 [Official Documentation](https://www.advancedcustomfields.com/resources/select/)
+<br>
+<br>
+
+### Radio
+```php
+->addRadio('radio_field', [
+  'label' => __('Radio Field', 'djx'),
+  'instructions' => '',
+  'required' => 0,
+  'conditional_logic' => [],
+  'wrapper' => ['width' => '100'],
+  'choices' => [
+    'key-1' => 'Value 1',
+  ],
+  'allow_null' => 0,
+  'default_value' => '',
+  'layout' => 'vertical',
+  'return_format' => 'value',
+])
+```
+[Official Documentation](https://www.advancedcustomfields.com/resources/radio-button)
 <br>
 <br>
 
